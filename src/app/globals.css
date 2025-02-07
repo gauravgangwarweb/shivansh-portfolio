@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.preahvihear-regular {
+  font-family: "Preahvihear", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inika-regular {
+  font-family: "Inika", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inika-bold {
+  font-family: "Inika", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container {
+  scroll-snap-type: y mandatory; /* Enable vertical scroll snapping */
+  overflow-y: scroll; /* Allow scrolling */
+  height: 100vh; /* Full height for snapping */
+}
+
+.snap-child {
+  scroll-snap-align: start; /* Align at the start of each section */
+  height: 100vh; /* Full height for snapping */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem; */
+}
