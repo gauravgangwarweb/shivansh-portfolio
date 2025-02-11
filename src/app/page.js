@@ -5,7 +5,7 @@ import AboutTrader from "./components/about-trader/AboutTrader";
 
 export default function Home() {
   return (
-    <div className="w-full max-w-[1440px] mx-auto container">
+    <div className="w-full md:max-w-[1440px] mx-auto container">
       <Hero />
       <AboutDes />
       <AboutTrader />
