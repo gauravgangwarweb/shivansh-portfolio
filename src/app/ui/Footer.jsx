@@ -10,12 +10,12 @@ const Footer = () => {
             <p className="text-2xl font-medium">Media</p>
             <div className="flex gap-4 items-center mt-2">
               <Link href="https://www.instagram.com/shivansh_uiux?igsh=MWl1eXFnaGJkZjRnNg==">
-                <img loading="lazy" src="/footer/linkedin.png" alt="linkedin" />
+                <img loading="lazy" src="/footer/Instagram.png" alt="linkedin" />
               </Link>
-              <Link href="https://www.Linkedin.com/in/shivansh-gangwar/">
+              <Link href="https://www.linkedin.com/in/shivansh-gangwar/">
                 <img
                   loading="lazy"
-                  src="/footer/Instagram.png"
+                  src="/footer/Linkedin.png"
                   alt="instagram"
                 />
               </Link>
