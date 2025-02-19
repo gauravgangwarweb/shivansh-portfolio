@@ -12,10 +12,10 @@ const Footer = () => {
               <Link href="https://www.instagram.com/shivansh_uiux?igsh=MWl1eXFnaGJkZjRnNg==">
                 <img loading="lazy" src="/footer/linkedin.png" alt="linkedin" />
               </Link>
-              <Link href="https://www.linkedin.com/in/shivansh-gangwar/">
+              <Link href="https://www.Linkedin.com/in/shivansh-gangwar/">
                 <img
                   loading="lazy"
-                  src="/footer/instagram.png"
+                  src="/footer/Instagram.png"
                   alt="instagram"
                 />
               </Link>
