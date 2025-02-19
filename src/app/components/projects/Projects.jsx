@@ -59,7 +59,7 @@ const Projects = () => {
         </div>
       </div>
       <img
-        className="absolute bottom-0 right-0"
+        className="hidden md:block absolute bottom-0 right-0"
         loading="lazy"
         src="/projects/rectangle.png"
         alt="rectangle"
