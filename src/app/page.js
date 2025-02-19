@@ -1,9 +1,9 @@
 import Navbar from "./ui/Navbar";
-import Hero from "./components/hero/Hero";
-import Projects from "./components/projects/Projects";
-import Skills from "./components/skills/Skills";
-import AboutMe from "./components/about/AboutMe";
-import ContactUs from "./components/contact/ContactUs";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import AboutMe from "./components/AboutMe";
+import ContactUs from "./components/ContactUs";
 import Footer from "./ui/Footer";
 
 export default function Home() {

@@ -1,6 +1,3 @@
-import React from "react";
-import PixelCard from "../../ui/PixelCard";
-
 const projectsData = [
   {
     id: 1,
@@ -40,8 +37,7 @@ const Projects = () => {
             return (
               <div key={project.id} className="flex flex-col border">
                 <img loading="lazy" src={project.img} alt={project.img} />
-                <PixelCard className="w-full h-full" variant="pink">
-                  <div className="absolute w-full">
+                  <div className="w-full">
                     <p className="text-base text-gray-500 p-2 border-b">
                       {project.category}
                     </p>
@@ -52,7 +48,6 @@ const Projects = () => {
                       </button>
                     </div>
                   </div>
-                </PixelCard>
               </div>
             );
           })}
