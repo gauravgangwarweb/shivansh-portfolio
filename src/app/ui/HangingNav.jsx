@@ -8,7 +8,7 @@ const HangingNav = () => {
         <img
           className="mt-2"
           loading="lazy"
-          src="instagram.png"
+          src="Instagram.png"
           alt="intsagram"
         />
       </Link>
@@ -16,7 +16,7 @@ const HangingNav = () => {
         <img
           className="mt-2"
           loading="lazy"
-          src="linkedin.png"
+          src="Linkedin.png"
           alt="linkedin"
         />
       </Link>
