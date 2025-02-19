@@ -2,8 +2,8 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="">
-      <div className="w-full md:max-w-[1025px] mx-auto mt-32">
+    <>
+      <div className="w-full lg:max-w-[1025px] mx-auto mt-32">
         <div className="w-full flex items-center gap-2">
           <h3 className="text-[32px] font-semibold">
             <span className="text-primary">#</span>skills
@@ -12,7 +12,7 @@ const Skills = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-8">
           <img
-            className=""
+            className="hidden md:block"
             loading="lazy"
             src="/skills/vectors.png"
             alt="left-vectors"
@@ -42,7 +42,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

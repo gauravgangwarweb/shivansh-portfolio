@@ -12,7 +12,7 @@ const projectsData = [
   {
     id: 2,
     img: "/projects/project-2.png",
-    category: "UI design",
+    category: "UX design",
     title: "Code Krafter",
     link: "codekrafter.xyz",
   },
