@@ -1,14 +1,21 @@
-import Image from "next/image";
+import Navbar from "./ui/Navbar";
 import Hero from "./components/hero/Hero";
-import AboutDes from "./components/about-des/AboutDes";
-import AboutTrader from "./components/about-trader/AboutTrader";
+import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";
+import AboutMe from "./components/about/AboutMe";
+import ContactUs from "./components/contact/ContactUs";
+import Footer from "./ui/Footer";
 
 export default function Home() {
   return (
-    <div className="w-full md:max-w-[1440px] mx-auto container">
-      <Hero />
-      <AboutDes />
-      <AboutTrader />
+    <div className="w-full lg:max-w-[1440px] mx-auto px-4">
+        <Navbar />
+        <Hero />
+        <Projects />
+        <Skills />
+        <AboutMe />
+        <ContactUs />
+        <Footer />
     </div>
   );
 }
