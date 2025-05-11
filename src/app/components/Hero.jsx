@@ -11,10 +11,10 @@ const Hero = () => {
     >
       <div className="w-full h-full grid grid-cols-1 lg:grid-cols-2 pl-0 lg:pl-8">
         <div className="">
-          <h2 className="text-white text-[32px] md:text-[60px] lg:text-[80px] font-bold lg:mt-16 leading-tight">
+          <h2 className="text-white text-[34px] md:text-[60px] lg:text-[80px] font-bold lg:mt-16 leading-tight mt-6">
             I am:{">"} <br className="hidden lg:block" /> <span className="text-[#FFCC00] leading-none">Shivansh</span>
           </h2>
-          <h2 className="block lg:hidden text-white text-[32px] md:text-[60px] lg:text-[80px] font-bold lg:mt-16 leading-tight">
+          <h2 className="block lg:hidden text-white text-[34px] md:text-[60px] lg:text-[80px] font-bold lg:mt-16 leading-tight">
             A <br className="hidden lg:block" /> <span className="text-[#FFCC00] leading-none">UI/UX designer</span>
           </h2>
           <p className="text-[10px] md:text-[20px] font-medium pr-28 mt-6 block md:hidden lg:block text-white">
