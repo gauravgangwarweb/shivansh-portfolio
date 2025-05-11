@@ -6,15 +6,15 @@ const Hero = () => {
     <div
       className="w-full h-screen flex flex-col items-center justify-center relative px-0 lg:px-16
       before:content-[''] before:absolute before:inset-0 before:bg-[url('/hero/hero.png')]
-      before:bg-[length:150%] before:bg-no-repeat before:bg-[center_60%]
+      before:bg-[length:200%] before:bg-no-repeat before:bg-[center_60%]
       lg:before:bg-contain lg:before:bg-center"
     >
       <div className="w-full h-full grid grid-cols-1 lg:grid-cols-2 pl-0 lg:pl-8">
         <div className="">
-          <h2 className="text-white text-[34px] md:text-[60px] lg:text-[80px] font-bold lg:mt-16 leading-tight mt-6">
+          <h2 className="text-white text-[32px] md:text-[60px] lg:text-[80px] font-bold lg:mt-16 leading-tight mt-2">
             I am:{">"} <br className="hidden lg:block" /> <span className="text-[#FFCC00] leading-none">Shivansh</span>
           </h2>
-          <h2 className="block lg:hidden text-white text-[34px] md:text-[60px] lg:text-[80px] font-bold lg:mt-16 leading-tight">
+          <h2 className="block lg:hidden text-white text-[32px] md:text-[60px] lg:text-[80px] font-bold lg:mt-16 leading-tight">
             A <br className="hidden lg:block" /> <span className="text-[#FFCC00] leading-none">UI/UX designer</span>
           </h2>
           <p className="text-[10px] md:text-[20px] font-medium pr-28 mt-6 block md:hidden lg:block text-white">
