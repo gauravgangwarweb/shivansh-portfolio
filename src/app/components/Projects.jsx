@@ -1,24 +1,26 @@
+import Link from "next/link";
+
 const projectsData = [
   {
     id: 1,
     img: "/projects/project-1.jpg",
     category: "UI design",
     title: "Don Clothing",
-    link: "codekrafter.xyz",
+    link: "https://www.figma.com/proto/073jiUYjRiumsmHdTvfuZH/Clothing-Store?node-id=6-51&p=f&t=85PYI6zrLGefhwVj-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1",
   },
   {
     id: 2,
     img: "/projects/project-2.png",
     category: "UX design",
     title: "Code Krafter",
-    link: "codekrafter.xyz",
+    link: "https://www.codekrafter.xyz/",
   },
   {
     id: 3,
     img: "/projects/project-3.png",
     category: "UI design",
     title: "siella Medical",
-    link: "codekrafter.xyz",
+    link: "https://www.figma.com/proto/wyuSJclodlCD6FwK743358/dental?node-id=501-27&p=f&t=ckWJkFgaXXBDpqpc-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A2&starting-point-node-id=908%3A74",
   },
 ];
 
@@ -52,7 +54,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full relative z-10">
-                  <div className="px-4 my-4">
+                  <div className="px-4 my-4 flex flex-col items-start">
                     <span className="text-xs text-primary/80 font-medium tracking-wider">
                       {project.category}
                     </span>
@@ -60,13 +62,16 @@ const Projects = () => {
                       transition-colors duration-300">
                       {project.title}
                     </h4>
-                    <button 
+                    <Link
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer" 
                       className="mt-4 px-4 py-2 border border-primary/50 text-primary/80 
                         hover:border-primary hover:text-primary transition-all duration-300 
                         flex items-center gap-2 text-sm hover:gap-3"
                     >
                       Live <span className="transition-all duration-300">{"→"}</span>
-                    </button>
+                    </Link>
                   </div>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent 
