@@ -6,7 +6,7 @@ const Hero = () => {
     <div
       className="w-full h-screen flex flex-col items-center justify-center relative px-0 lg:px-16
       before:content-[''] before:absolute before:inset-0 before:bg-[url('/hero/hero.png')]
-      before:bg-[length:120%] before:bg-no-repeat before:bg-[center_60%]
+      before:bg-[length:150%] before:bg-no-repeat before:bg-[center_60%]
       lg:before:bg-contain lg:before:bg-center"
     >
       <div className="w-full h-full grid grid-cols-1 lg:grid-cols-2 pl-0 lg:pl-8">
