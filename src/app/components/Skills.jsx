@@ -26,12 +26,21 @@ const Skills = () => {
               <img src="/skills/icons/canva.png" alt="figma-icon" />
             </div>
             <div className="flex gap-6 mt-10">
-              <div className="w-[178px] border rounded-sm">
-                <h6 className="font-semibold border-b p-2">Other</h6>
+              <div className="w-[178px] border border-primary/50 rounded-sm group 
+                hover:bg-white/5 transition-all duration-500 hover:border-primary
+                hover:shadow-lg hover:shadow-primary/20 backdrop-blur-sm">
+                <h6 className="font-semibold border-b border-primary/50 p-2 
+                  group-hover:border-primary transition-all duration-500 
+                  group-hover:text-primary">Other</h6>
                 <p className="p-2">i can see design in trading chart</p>
               </div>
-              <div className="w-[178px] border rounded-sm">
-                <h6 className="font-semibold border-b p-2">Tools</h6>
+              
+              <div className="w-[178px] border border-primary/50 rounded-sm group 
+                hover:bg-white/5 transition-all duration-500 hover:border-primary
+                hover:shadow-lg hover:shadow-primary/20 backdrop-blur-sm">
+                <h6 className="font-semibold border-b border-primary/50 p-2 
+                  group-hover:border-primary transition-all duration-500 
+                  group-hover:text-primary">Tools</h6>
                 <div className="p-2">
                   <p>Canva</p>
                   <p>Figma</p>
